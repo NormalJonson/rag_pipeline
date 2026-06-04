@@ -1,0 +1,8 @@
+python-dotenv==1.0.1          # Loads API keys from .env file
+langchain==1.3.2              # Core LangChain framework
+langchain-community==0.2.3    # Community integrations (DirectoryLoader, etc.)
+langchain-google-genai==4.1.2 # Gemini embeddings via LangChain (compare_embeddings.py)
+google-genai==2.7.0           # Google Gemini SDK (embeddings in create_database.py & query_data.py)
+chromadb==1.5.9               # Vector database for storing and querying embeddings
+numpy==2.2.6                  # Cosine similarity calculations in compare_embeddings.py
+groq==0.28.0                  # Groq SDK for LLM text generation in query_data.py (replaces Gemini generate_content)
