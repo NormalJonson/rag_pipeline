@@ -9,8 +9,8 @@ Uses **Gemini** for embeddings and **Groq** for answer generation, with **Chroma
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Shridev-Kandari/rag_pipeline.git
+cd rag_pipeline
 ```
 
 ### 2. Create and activate a virtual environment
